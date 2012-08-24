@@ -34,16 +34,16 @@ set showmatch
 set comments=s1:/*,mb:\ *,elx:\ */
 
 " Fix delete key on OSX
-set backspace+=indent,eol,start
+" set backspace+=indent,eol,start
 
 " Automatically save files
 :set autowriteall
 
 " Start with a large window
-set lines=43 columns=165
+" set lines=43 columns=165
 
 " Highlight anything past column 80
-set colorcolumn=80
+" set colorcolumn=80
 
 " Incremental Search please
 :set incsearch
