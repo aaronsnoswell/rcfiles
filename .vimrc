@@ -51,3 +51,8 @@ set comments=s1:/*,mb:\ *,elx:\ */
 " Use tabs for make files!
 autocmd FileType make setlocal noexpandtab
 
+" Clear search highlighting on escape
+nnoremap <esc> :noh<return><esc>
+
+
+
