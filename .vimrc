@@ -54,5 +54,8 @@ autocmd FileType make setlocal noexpandtab
 " Clear search highlighting on escape
 nnoremap <esc> :noh<return><esc>
 
+" Less highlighting as per http://leafo.net/lessphp/vim
+au BufNewFile,BufRead *.less set filetype=less
+
 
 
